@@ -1,0 +1,45 @@
+table{
+  width:630px;
+  margin: 0 auto;
+}
+.label{
+  float: left;
+  margin-right: 20px;
+  width:150px;
+  padding-left: 10px;
+  font-size: 7rem;
+}
+.inputs{
+  float: left;
+  width:480px;
+}
+input[type="text"],input[type="email"]{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding:10px;
+  font-size: 7rem;
+  height: 7rem;
+  width: 480px;
+}
+textarea{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding: 10px;
+  height: 7rem;
+  font-size: 7rem;
+}
+.btn-area{
+  text-align: center;
+}
+input[type="submit"]{
+  background: #33ffff;
+  border: none;
+  color: white;
+  font-size:17px;
+  font-weight:bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+th{
+  font-style: 7rem;
+}
